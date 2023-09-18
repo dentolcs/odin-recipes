@@ -5,9 +5,9 @@ body {
     font-family: 'Arial Narrow Bold', sans-serif;
     min-height: 100vh;
     margin: 0;
+    line-height: 2;
 
 }
-
 
 h1 {
     font-size: 60px;
@@ -16,24 +16,33 @@ h1 {
     margin: 0;
 }
 
-
-.menu {
+.content {
     display: flex;
     justify-content: space-evenly;
-
+    padding: 50px;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
-.option {
-    width: 300px;
+.recipe {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 32px;
+    width: 600px;
+    flex: 1;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
 }
 
 .image {
-    width: 300px;
-    height: 500px;
+    width: 500px;
+    height: 800px;
     object-fit: cover;
+    flex: 1;
 }
 
 a {
@@ -45,5 +54,5 @@ a {
     border: solid;
     border-color: black;
     border-radius: 5px;
+    margin: 50px;
 }
-
